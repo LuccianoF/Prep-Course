@@ -28,9 +28,9 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
-  
+  return 'hola, como estas';
 }
+devolverString()
 
 
 
@@ -38,26 +38,32 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+  return (x + y);  
 }
+suma(55 + 85)
+
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  return (x - y);
 }
+resta(100 - 60)
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  return (x * y);
 }
+
+multiplica(20, 8)
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  return (x / y);
 }
+divide(200, 6)
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
@@ -189,6 +195,11 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+  base = 10
+  altura = 20
+
+  area = base * altura / 2
+  
 
 }
 
